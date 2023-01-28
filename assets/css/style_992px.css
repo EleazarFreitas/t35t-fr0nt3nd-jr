@@ -1,0 +1,59 @@
+@media only screen and (max-width: 992px){
+    .desktop-nav {
+        display: none !important;
+    }
+
+    .welcome {
+        height: 100%;
+    }
+
+    .desktop-footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: block;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .mobile-logo img {
+        width: 5.1rem;
+    }
+
+    .mobile-booking-btn {
+        background-color: var(--Brown);
+        border-color: var(--Brown);
+        color: var(--White);
+    }
+
+    .line {
+        border: 1px solid var(--DirtyWhite);
+    }
+
+    .footer-buttons a {
+        width: 100%;
+        padding: 16px;
+        background-color: var(--MiddleGray);
+        border-color: var(--MiddleGray);
+        color: var(--White);
+    }
+
+    .footer-buttons :nth-child(3), .footer-buttons :nth-child(4) {
+        background-color: var(--Black);
+        border: 3px solid var(--DirtyWhite);
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .motel {
+        padding: 6rem 10% 4rem;
+    }
+
+    .motel-img {
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+}

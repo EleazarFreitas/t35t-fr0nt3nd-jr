@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --StrongBlack: #000;
+    --Black: #2A2A2A;
+    --White: #FFF;
+    --DirtyWhite: #D9D9D9;
+    --MiddleGray: #7A7266;
+    --Brown: #5A493E;
+    --MiddleBrown: #6C6359;
+    --LightGray: #EEEEEE;
+    --TitleFont: Playfair Display;
+}
+
+* {
+    font-family: Montserrat;
+    font-weight: 400;
+    text-decoration: none !important;
+    color: var(--Black);
+}
+
+/* Header Begin */
+
+.desktop-hero {
+    background: url(../img/slider-d.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.desktop-hero ul {
+    list-style: none;
+}
+
+.desktop-hero ul a {
+    color: var(--White);
+    font-weight: 500;
+}
+
+.welcome {
+    height: calc(100% - 95px);
+}
+
+.welcome span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--White);
+}
+
+.welcome h1 {
+    font-size: 4.1rem;
+    font-weight: 600;
+    font-family: var(--TitleFont);
+    color: var(--White);
+}
+
+.desktop-hero-buttons a {
+    color: var(--White);
+    background-color: var(--MiddleGray);
+    padding: 10px 40px;
+    font-weight: 500;
+}
+
+.desktop-hero-buttons :last-child {
+    background-color: var(--Brown);
+}
+
+.mobile-nav {
+    display: none;
+}
+
+/* Header End */
+
+/* Suite Section Begin */
+
+.suite-section {
+    padding-bottom: 10rem !important;
+    background-color: var(--MiddleGray);
+}
+
+.suite-section h2 {
+    font-family: var(--TitleFont);
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+.suite-section button {
+    margin: auto 0;
+    width: 40px;
+    height: 62px;
+    background-color: var(--White);
+    opacity: 0.5;
+}
+
+.suite-cristal-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6.8rem;
+    margin: 0 auto;
+    width: 23rem;
+}
+
+.suite-cristal {   
+    background-color: var(--White);
+    padding: 2rem;
+}
+
+.suite-cristal h3 {
+    font-weight: 600;
+    font-family: var(--TitleFont);
+    font-size: 1.3rem;
+}
+
+.suite-btn {
+    font-weight: 500;
+    background-color: var(--Brown);
+    border-color: var(--Brown);
+    color: var(--White);
+}
+
+/* Suite Section End */
+
+/* Motel Section Begin */
+
+.motel {
+    background-color: var(--LightGray);
+}
+
+.motel h3 {
+    font-family: var(--TitleFont);
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+.motel p {
+    font-size: calc(60% + 0.8vmin);
+}
+
+.motel a {
+    font-weight: 500;
+    background-color: var(--MiddleGray);
+    border-color: var(--Brown);
+    color: var(--White);
+}
+
+.motel-text {
+    margin-top: -2.5rem;
+}
+
+/* Motel Section End */
+
+/* Courtesy section Begin */
+
+.courtesy {
+    background-color: var(--MiddleBrown);
+}
+
+.courtesy h3 {
+    font-family: var(--TitleFont);
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+.card-title {
+    font-family: var(--TitleFont);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.card-text {
+    font-size: 0.8rem;
+}
+
+.courtesy a {
+    background-color: var(--Black);
+    font-weight: 500;
+    color: var(--White);
+}
+
+/* Courtesy section End */
+
+/* Localization Section Begin */
+
+.localization {
+    background-color: var(--LightGray);
+}
+
+iframe {
+    width: 100%;
+    height: 50vh;
+}
+
+.motelAddress {
+    background-color: var(--White);
+}
+
+.motelAddress h3 {
+    font-family: var(--TitleFont);
+    font-weight: 600;
+    font-size: 2.1rem;
+}
+
+.motelAddress a {
+    background-color: var(--Brown);
+    font-weight: 500;
+    color: var(--White);
+}
+
+/* Localization Section End */
+
+/* Footer Begin */
+
+footer {
+    background-color: var(--Black);
+}
+
+footer .logo {
+    width: 11.8rem;
+}
+
+footer span, footer a {
+    font-weight: 500;
+}
+
+footer li {
+    list-style: none;
+}
+
+.contact {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-end {
+    background-color: var(--StrongBlack);
+}
+
+.footer-end span {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.mobile-footer {
+    display: none;
+}
+
+/* Footer End */
